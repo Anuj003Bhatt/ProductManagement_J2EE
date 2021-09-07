@@ -1,0 +1,89 @@
+html{
+	height: 100%;
+	margin: 0px;
+	overflow: hidden;
+}
+body{
+	height: 100%;
+	margin: 0px;
+	background-color: green;
+	opacity: 0.89;
+}
+.transparent {
+  
+}
+.mainContainer{
+	margin-left: 32%;
+	margin-top: 10%;	
+	height:55%;
+	width: 30%;
+	background-color: lightgrey;
+	
+	
+}
+.headerPanel{
+	background-color: #4CAF50;
+	height: 30%; 
+	width: 100%;
+	display: table;
+}
+.detailPanel{
+	height: 70%;
+	width: 100%;
+}
+.loginLabel{
+	
+	display: table-cell;
+	vertical-align: middle;
+	padding-left: 40%;
+	font-size: 175%;
+	color: white;
+
+}
+.detailsContainer{
+	margin-left: 15%;
+	margin-top: 5%;
+}
+.inputBox{
+	
+	height: 40px;
+	background: transparent;
+	width: 80%;
+	font-size: 120%;
+	font-family: "Time New Roman", Times, serif;
+	outline: 0;
+  	border-width: 0 0 2px;
+	box-sizing: border-box;
+	margin-bottom:5%;
+}
+.submitPanel{
+	width: 100%;
+	margin-left: 11%;
+	margin-top: 5%;
+	margin-bottom: 3%;
+
+}
+.submitbutton{
+  background-color: #4CAF50;
+	color: white;
+	border:none;
+	cursor: pointer;
+	font-size: 15pt;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	width:50%;  
+}
+.submitbutton:hover{
+	background-color: grey;
+}
+.footerPanel{
+	text-align: right;
+	margin-right: 1%;
+}
+
+.footerLabel{
+	margin-top: 1%;
+	margin-right: 1%;
+	color: #4CAF50;
+	cursor: pointer;
+}

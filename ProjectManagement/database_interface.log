@@ -1,0 +1,146 @@
+09-11-2019 19:53:39 DEBUG ConnectionPool:23 - No free connections, adding a new one
+09-11-2019 19:53:39 TRACE DBConnection:97 - DatabaseConnection getConnection
+09-11-2019 19:53:39 INFO  DBConnection:105 - Fetching properties from interface
+09-11-2019 19:53:39 TRACE ConnectionRegister:48 - Connection Requested [Thread: main]: Entering synchronized block
+09-11-2019 19:53:39 TRACE ConnectionRegister:55 - Request Connection successful: Count Incremented: Thread [main]
+09-11-2019 19:53:39 INFO  DBConnection:80 - Creating database connection
+09-11-2019 19:53:39 DEBUG DBConnection:81 - [Driver: com.mysql.cj.jdbc.Driver, Database URL: jdbc:mysql://localhost:3306/, Username: root, DB: project_management?Database_Name=project_management&useUnicode=true&useJDBCCompliantTimezoneShift=true&Username=root&Driver=com.mysql.cj.jdbc.Driver&serverTimezone=UTC&useLegacyDatetimeCode=false&URL=jdbc:mysql://localhost:3306/&Password=]
+09-11-2019 19:53:40 INFO  DBConnection:90 - Connection established
+09-11-2019 19:53:40 INFO  ConnectionPool:27 - Connection initiation successful
+09-11-2019 19:53:40 ERROR DBConnection:168 - Could not execute query 
+java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.StatementImpl.executeQuery(StatementImpl.java:1200)
+	at org.anuj.projectmanage.databaseinterface.DBConnection.selectQuery(DBConnection.java:164)
+	at org.anuj.projectmanage.viewobjects.EmployeeVO.executeQuery(EmployeeVO.java:65)
+	at org.anuj.projectmanage.main.Main.main(Main.java:73)
+09-11-2019 19:53:40 ERROR ConnectionsList:89 - Closing all connections
+09-11-2019 19:53:40 INFO  DBConnection:149 - Database connection closed, active connection now are 0
+09-11-2019 19:54:18 DEBUG ConnectionPool:23 - No free connections, adding a new one
+09-11-2019 19:54:18 TRACE DBConnection:97 - DatabaseConnection getConnection
+09-11-2019 19:54:18 INFO  DBConnection:105 - Fetching properties from interface
+09-11-2019 19:54:18 TRACE ConnectionRegister:48 - Connection Requested [Thread: main]: Entering synchronized block
+09-11-2019 19:54:18 TRACE ConnectionRegister:55 - Request Connection successful: Count Incremented: Thread [main]
+09-11-2019 19:54:18 INFO  DBConnection:80 - Creating database connection
+09-11-2019 19:54:18 DEBUG DBConnection:81 - [Driver: com.mysql.cj.jdbc.Driver, Database URL: jdbc:mysql://localhost:3306/, Username: root, DB: project_management?Database_Name=project_management&useUnicode=true&useJDBCCompliantTimezoneShift=true&Username=root&Driver=com.mysql.cj.jdbc.Driver&serverTimezone=UTC&useLegacyDatetimeCode=false&URL=jdbc:mysql://localhost:3306/&Password=]
+09-11-2019 19:54:19 INFO  DBConnection:90 - Connection established
+09-11-2019 19:54:19 INFO  ConnectionPool:27 - Connection initiation successful
+09-11-2019 19:54:19 ERROR DBConnection:168 - Could not execute query 
+java.sql.SQLException: Can not issue empty query.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:89)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:63)
+	at com.mysql.cj.jdbc.StatementImpl.checkNullOrEmptyQuery(StatementImpl.java:387)
+	at com.mysql.cj.jdbc.StatementImpl.executeQuery(StatementImpl.java:1110)
+	at org.anuj.projectmanage.databaseinterface.DBConnection.selectQuery(DBConnection.java:164)
+	at org.anuj.projectmanage.viewobjects.EmployeeVO.executeQuery(EmployeeVO.java:66)
+	at org.anuj.projectmanage.main.Main.main(Main.java:73)
+09-11-2019 19:54:19 ERROR ConnectionsList:89 - Closing all connections
+09-11-2019 19:54:19 INFO  DBConnection:149 - Database connection closed, active connection now are 0
+09-11-2019 19:54:59 DEBUG ConnectionPool:23 - No free connections, adding a new one
+09-11-2019 19:54:59 TRACE DBConnection:97 - DatabaseConnection getConnection
+09-11-2019 19:54:59 INFO  DBConnection:105 - Fetching properties from interface
+09-11-2019 19:54:59 TRACE ConnectionRegister:48 - Connection Requested [Thread: main]: Entering synchronized block
+09-11-2019 19:54:59 TRACE ConnectionRegister:55 - Request Connection successful: Count Incremented: Thread [main]
+09-11-2019 19:54:59 INFO  DBConnection:80 - Creating database connection
+09-11-2019 19:54:59 DEBUG DBConnection:81 - [Driver: com.mysql.cj.jdbc.Driver, Database URL: jdbc:mysql://localhost:3306/, Username: root, DB: project_management?Database_Name=project_management&useUnicode=true&useJDBCCompliantTimezoneShift=true&Username=root&Driver=com.mysql.cj.jdbc.Driver&serverTimezone=UTC&useLegacyDatetimeCode=false&URL=jdbc:mysql://localhost:3306/&Password=]
+09-11-2019 19:55:00 INFO  DBConnection:90 - Connection established
+09-11-2019 19:55:00 INFO  ConnectionPool:27 - Connection initiation successful
+09-11-2019 19:55:00 ERROR ConnectionsList:89 - Closing all connections
+09-11-2019 19:55:00 INFO  DBConnection:149 - Database connection closed, active connection now are 0
+09-11-2019 19:55:25 DEBUG ConnectionPool:23 - No free connections, adding a new one
+09-11-2019 19:55:25 TRACE DBConnection:97 - DatabaseConnection getConnection
+09-11-2019 19:55:25 INFO  DBConnection:105 - Fetching properties from interface
+09-11-2019 19:55:25 TRACE ConnectionRegister:48 - Connection Requested [Thread: main]: Entering synchronized block
+09-11-2019 19:55:25 TRACE ConnectionRegister:55 - Request Connection successful: Count Incremented: Thread [main]
+09-11-2019 19:55:25 INFO  DBConnection:80 - Creating database connection
+09-11-2019 19:55:25 DEBUG DBConnection:81 - [Driver: com.mysql.cj.jdbc.Driver, Database URL: jdbc:mysql://localhost:3306/, Username: root, DB: project_management?Database_Name=project_management&useUnicode=true&useJDBCCompliantTimezoneShift=true&Username=root&Driver=com.mysql.cj.jdbc.Driver&serverTimezone=UTC&useLegacyDatetimeCode=false&URL=jdbc:mysql://localhost:3306/&Password=]
+09-11-2019 19:55:25 INFO  DBConnection:90 - Connection established
+09-11-2019 19:55:25 INFO  ConnectionPool:27 - Connection initiation successful
+09-11-2019 19:55:25 ERROR DBConnection:168 - Could not execute query 
+java.sql.SQLSyntaxErrorException: Unknown column 'firstname' in 'where clause'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.StatementImpl.executeQuery(StatementImpl.java:1200)
+	at org.anuj.projectmanage.databaseinterface.DBConnection.selectQuery(DBConnection.java:164)
+	at org.anuj.projectmanage.viewobjects.EmployeeVO.executeQuery(EmployeeVO.java:68)
+	at org.anuj.projectmanage.main.Main.main(Main.java:73)
+09-11-2019 19:55:25 ERROR ConnectionsList:89 - Closing all connections
+09-11-2019 19:55:25 INFO  DBConnection:149 - Database connection closed, active connection now are 0
+09-11-2019 19:56:02 DEBUG ConnectionPool:23 - No free connections, adding a new one
+09-11-2019 19:56:02 TRACE DBConnection:97 - DatabaseConnection getConnection
+09-11-2019 19:56:02 INFO  DBConnection:105 - Fetching properties from interface
+09-11-2019 19:56:02 TRACE ConnectionRegister:48 - Connection Requested [Thread: main]: Entering synchronized block
+09-11-2019 19:56:02 TRACE ConnectionRegister:55 - Request Connection successful: Count Incremented: Thread [main]
+09-11-2019 19:56:02 INFO  DBConnection:80 - Creating database connection
+09-11-2019 19:56:02 DEBUG DBConnection:81 - [Driver: com.mysql.cj.jdbc.Driver, Database URL: jdbc:mysql://localhost:3306/, Username: root, DB: project_management?Database_Name=project_management&useUnicode=true&useJDBCCompliantTimezoneShift=true&Username=root&Driver=com.mysql.cj.jdbc.Driver&serverTimezone=UTC&useLegacyDatetimeCode=false&URL=jdbc:mysql://localhost:3306/&Password=]
+09-11-2019 19:56:03 INFO  DBConnection:90 - Connection established
+09-11-2019 19:56:03 INFO  ConnectionPool:27 - Connection initiation successful
+09-11-2019 19:56:03 ERROR DBConnection:168 - Could not execute query 
+java.sql.SQLSyntaxErrorException: Unknown column 'firstname' in 'where clause'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.StatementImpl.executeQuery(StatementImpl.java:1200)
+	at org.anuj.projectmanage.databaseinterface.DBConnection.selectQuery(DBConnection.java:164)
+	at org.anuj.projectmanage.viewobjects.EmployeeVO.executeQuery(EmployeeVO.java:68)
+	at org.anuj.projectmanage.main.Main.main(Main.java:73)
+09-11-2019 19:56:03 ERROR ConnectionsList:89 - Closing all connections
+09-11-2019 19:56:03 INFO  DBConnection:149 - Database connection closed, active connection now are 0
+09-11-2019 19:56:29 DEBUG ConnectionPool:23 - No free connections, adding a new one
+09-11-2019 19:56:29 TRACE DBConnection:97 - DatabaseConnection getConnection
+09-11-2019 19:56:29 INFO  DBConnection:105 - Fetching properties from interface
+09-11-2019 19:56:29 TRACE ConnectionRegister:48 - Connection Requested [Thread: main]: Entering synchronized block
+09-11-2019 19:56:29 TRACE ConnectionRegister:55 - Request Connection successful: Count Incremented: Thread [main]
+09-11-2019 19:56:29 INFO  DBConnection:80 - Creating database connection
+09-11-2019 19:56:29 DEBUG DBConnection:81 - [Driver: com.mysql.cj.jdbc.Driver, Database URL: jdbc:mysql://localhost:3306/, Username: root, DB: project_management?Database_Name=project_management&useUnicode=true&useJDBCCompliantTimezoneShift=true&Username=root&Driver=com.mysql.cj.jdbc.Driver&serverTimezone=UTC&useLegacyDatetimeCode=false&URL=jdbc:mysql://localhost:3306/&Password=]
+09-11-2019 19:56:29 INFO  DBConnection:90 - Connection established
+09-11-2019 19:56:29 INFO  ConnectionPool:27 - Connection initiation successful
+09-11-2019 19:56:29 ERROR DBConnection:168 - Could not execute query 
+java.sql.SQLSyntaxErrorException: Unknown column 'Anmol' in 'where clause'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.StatementImpl.executeQuery(StatementImpl.java:1200)
+	at org.anuj.projectmanage.databaseinterface.DBConnection.selectQuery(DBConnection.java:164)
+	at org.anuj.projectmanage.viewobjects.EmployeeVO.executeQuery(EmployeeVO.java:68)
+	at org.anuj.projectmanage.main.Main.main(Main.java:73)
+09-11-2019 19:56:29 ERROR ConnectionsList:89 - Closing all connections
+09-11-2019 19:56:29 INFO  DBConnection:149 - Database connection closed, active connection now are 0
+09-11-2019 19:56:45 DEBUG ConnectionPool:23 - No free connections, adding a new one
+09-11-2019 19:56:45 TRACE DBConnection:97 - DatabaseConnection getConnection
+09-11-2019 19:56:45 INFO  DBConnection:105 - Fetching properties from interface
+09-11-2019 19:56:45 TRACE ConnectionRegister:48 - Connection Requested [Thread: main]: Entering synchronized block
+09-11-2019 19:56:45 TRACE ConnectionRegister:55 - Request Connection successful: Count Incremented: Thread [main]
+09-11-2019 19:56:45 INFO  DBConnection:80 - Creating database connection
+09-11-2019 19:56:45 DEBUG DBConnection:81 - [Driver: com.mysql.cj.jdbc.Driver, Database URL: jdbc:mysql://localhost:3306/, Username: root, DB: project_management?Database_Name=project_management&useUnicode=true&useJDBCCompliantTimezoneShift=true&Username=root&Driver=com.mysql.cj.jdbc.Driver&serverTimezone=UTC&useLegacyDatetimeCode=false&URL=jdbc:mysql://localhost:3306/&Password=]
+09-11-2019 19:56:45 INFO  DBConnection:90 - Connection established
+09-11-2019 19:56:45 INFO  ConnectionPool:27 - Connection initiation successful
+09-11-2019 19:56:45 ERROR ConnectionsList:89 - Closing all connections
+09-11-2019 19:56:45 INFO  DBConnection:149 - Database connection closed, active connection now are 0
+06-06-2020 17:52:28 DEBUG ConnectionPool:23 - No free connections, adding a new one
+06-06-2020 17:52:28 TRACE DBConnection:97 - DatabaseConnection getConnection
+06-06-2020 17:52:28 INFO  DBConnection:105 - Fetching properties from interface
+06-06-2020 17:52:28 TRACE ConnectionRegister:48 - Connection Requested [Thread: main]: Entering synchronized block
+06-06-2020 17:52:28 TRACE ConnectionRegister:55 - Request Connection successful: Count Incremented: Thread [main]
+06-06-2020 17:52:28 INFO  DBConnection:80 - Creating database connection
+06-06-2020 17:52:28 DEBUG DBConnection:81 - [Driver: com.mysql.cj.jdbc.Driver, Database URL: jdbc:mysql://localhost:3306/, Username: root, DB: project_management?Database_Name=project_management&useUnicode=true&useJDBCCompliantTimezoneShift=true&Username=root&Driver=com.mysql.cj.jdbc.Driver&serverTimezone=UTC&useLegacyDatetimeCode=false&URL=jdbc:mysql://localhost:3306/&Password=]
+06-06-2020 17:52:28 INFO  DBConnection:90 - Connection established
+06-06-2020 17:52:28 INFO  ConnectionPool:27 - Connection initiation successful
+06-06-2020 17:52:28 ERROR ConnectionsList:89 - Closing all connections
+06-06-2020 17:52:29 INFO  DBConnection:149 - Database connection closed, active connection now are 0
+06-06-2020 17:53:54 DEBUG ConnectionPool:23 - No free connections, adding a new one
+06-06-2020 17:53:54 TRACE DBConnection:97 - DatabaseConnection getConnection
+06-06-2020 17:53:54 INFO  DBConnection:105 - Fetching properties from interface
+06-06-2020 17:53:54 TRACE ConnectionRegister:48 - Connection Requested [Thread: main]: Entering synchronized block
+06-06-2020 17:53:54 TRACE ConnectionRegister:55 - Request Connection successful: Count Incremented: Thread [main]
+06-06-2020 17:53:54 INFO  DBConnection:80 - Creating database connection
+06-06-2020 17:53:54 DEBUG DBConnection:81 - [Driver: com.mysql.cj.jdbc.Driver, Database URL: jdbc:mysql://localhost:3306/, Username: root, DB: project_management?Database_Name=project_management&useUnicode=true&useJDBCCompliantTimezoneShift=true&Username=root&Driver=com.mysql.cj.jdbc.Driver&serverTimezone=UTC&useLegacyDatetimeCode=false&URL=jdbc:mysql://localhost:3306/&Password=]
+06-06-2020 17:53:54 INFO  DBConnection:90 - Connection established
+06-06-2020 17:53:54 INFO  ConnectionPool:27 - Connection initiation successful
+06-06-2020 17:53:54 ERROR ConnectionsList:89 - Closing all connections
+06-06-2020 17:53:54 INFO  DBConnection:149 - Database connection closed, active connection now are 0

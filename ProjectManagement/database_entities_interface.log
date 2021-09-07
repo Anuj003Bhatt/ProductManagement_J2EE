@@ -1,0 +1,6 @@
+09-11-2019 19:47:10 DEBUG ViewCriteriaItem:27 - Criteria item for inputs: null : firstname : = : abc
+09-11-2019 19:55:25 DEBUG ViewCriteriaItem:27 - Criteria item for inputs: null : firstname : = : Anmol
+09-11-2019 19:56:02 DEBUG ViewCriteriaItem:27 - Criteria item for inputs: null : firstname : = : 'Anmol'
+09-11-2019 19:56:29 DEBUG ViewCriteriaItem:27 - Criteria item for inputs: null : first_name : = : Anmol
+09-11-2019 19:56:45 DEBUG ViewCriteriaItem:27 - Criteria item for inputs: null : first_name : = : 'Anmol'
+06-06-2020 17:52:28 DEBUG ViewCriteriaItem:27 - Criteria item for inputs: null : first_name : = : 'Anmol'

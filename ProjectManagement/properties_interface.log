@@ -1,0 +1,99 @@
+09-11-2019 19:53:39 INFO  PropertiesInterfaceForFile:42 - Loading properties from file DB.properties
+09-11-2019 19:53:39 TRACE PropertiesInterfaceForFile:45 - Properties file loaded: DB.properties
+09-11-2019 19:53:39 TRACE PropertiesInterfaceForFile:52 - Property fetched successfully <Key>:<Value>: URL : jdbc:mysql://localhost:3306/
+09-11-2019 19:53:39 TRACE PropertiesInterfaceForFile:52 - Property fetched successfully <Key>:<Value>: Driver : com.mysql.cj.jdbc.Driver
+09-11-2019 19:53:39 TRACE PropertiesInterfaceForFile:52 - Property fetched successfully <Key>:<Value>: Username : root
+09-11-2019 19:53:39 TRACE PropertiesInterfaceForFile:52 - Property fetched successfully <Key>:<Value>: Password : 
+09-11-2019 19:53:39 TRACE PropertiesInterfaceForFile:52 - Property fetched successfully <Key>:<Value>: Database_Name : project_management
+09-11-2019 19:53:39 TRACE PropertiesInterfaceForFile:52 - Property fetched successfully <Key>:<Value>: useUnicode : true
+09-11-2019 19:53:39 TRACE PropertiesInterfaceForFile:52 - Property fetched successfully <Key>:<Value>: useJDBCCompliantTimezoneShift : true
+09-11-2019 19:53:39 TRACE PropertiesInterfaceForFile:52 - Property fetched successfully <Key>:<Value>: useLegacyDatetimeCode : false
+09-11-2019 19:53:39 TRACE PropertiesInterfaceForFile:52 - Property fetched successfully <Key>:<Value>: serverTimezone : UTC
+09-11-2019 19:54:18 INFO  PropertiesInterfaceForFile:42 - Loading properties from file DB.properties
+09-11-2019 19:54:18 TRACE PropertiesInterfaceForFile:45 - Properties file loaded: DB.properties
+09-11-2019 19:54:18 TRACE PropertiesInterfaceForFile:52 - Property fetched successfully <Key>:<Value>: URL : jdbc:mysql://localhost:3306/
+09-11-2019 19:54:18 TRACE PropertiesInterfaceForFile:52 - Property fetched successfully <Key>:<Value>: Driver : com.mysql.cj.jdbc.Driver
+09-11-2019 19:54:18 TRACE PropertiesInterfaceForFile:52 - Property fetched successfully <Key>:<Value>: Username : root
+09-11-2019 19:54:18 TRACE PropertiesInterfaceForFile:52 - Property fetched successfully <Key>:<Value>: Password : 
+09-11-2019 19:54:18 TRACE PropertiesInterfaceForFile:52 - Property fetched successfully <Key>:<Value>: Database_Name : project_management
+09-11-2019 19:54:18 TRACE PropertiesInterfaceForFile:52 - Property fetched successfully <Key>:<Value>: useUnicode : true
+09-11-2019 19:54:18 TRACE PropertiesInterfaceForFile:52 - Property fetched successfully <Key>:<Value>: useJDBCCompliantTimezoneShift : true
+09-11-2019 19:54:18 TRACE PropertiesInterfaceForFile:52 - Property fetched successfully <Key>:<Value>: useLegacyDatetimeCode : false
+09-11-2019 19:54:18 TRACE PropertiesInterfaceForFile:52 - Property fetched successfully <Key>:<Value>: serverTimezone : UTC
+09-11-2019 19:54:59 INFO  PropertiesInterfaceForFile:42 - Loading properties from file DB.properties
+09-11-2019 19:54:59 TRACE PropertiesInterfaceForFile:45 - Properties file loaded: DB.properties
+09-11-2019 19:54:59 TRACE PropertiesInterfaceForFile:52 - Property fetched successfully <Key>:<Value>: URL : jdbc:mysql://localhost:3306/
+09-11-2019 19:54:59 TRACE PropertiesInterfaceForFile:52 - Property fetched successfully <Key>:<Value>: Driver : com.mysql.cj.jdbc.Driver
+09-11-2019 19:54:59 TRACE PropertiesInterfaceForFile:52 - Property fetched successfully <Key>:<Value>: Username : root
+09-11-2019 19:54:59 TRACE PropertiesInterfaceForFile:52 - Property fetched successfully <Key>:<Value>: Password : 
+09-11-2019 19:54:59 TRACE PropertiesInterfaceForFile:52 - Property fetched successfully <Key>:<Value>: Database_Name : project_management
+09-11-2019 19:54:59 TRACE PropertiesInterfaceForFile:52 - Property fetched successfully <Key>:<Value>: useUnicode : true
+09-11-2019 19:54:59 TRACE PropertiesInterfaceForFile:52 - Property fetched successfully <Key>:<Value>: useJDBCCompliantTimezoneShift : true
+09-11-2019 19:54:59 TRACE PropertiesInterfaceForFile:52 - Property fetched successfully <Key>:<Value>: useLegacyDatetimeCode : false
+09-11-2019 19:54:59 TRACE PropertiesInterfaceForFile:52 - Property fetched successfully <Key>:<Value>: serverTimezone : UTC
+09-11-2019 19:55:25 INFO  PropertiesInterfaceForFile:42 - Loading properties from file DB.properties
+09-11-2019 19:55:25 TRACE PropertiesInterfaceForFile:45 - Properties file loaded: DB.properties
+09-11-2019 19:55:25 TRACE PropertiesInterfaceForFile:52 - Property fetched successfully <Key>:<Value>: URL : jdbc:mysql://localhost:3306/
+09-11-2019 19:55:25 TRACE PropertiesInterfaceForFile:52 - Property fetched successfully <Key>:<Value>: Driver : com.mysql.cj.jdbc.Driver
+09-11-2019 19:55:25 TRACE PropertiesInterfaceForFile:52 - Property fetched successfully <Key>:<Value>: Username : root
+09-11-2019 19:55:25 TRACE PropertiesInterfaceForFile:52 - Property fetched successfully <Key>:<Value>: Password : 
+09-11-2019 19:55:25 TRACE PropertiesInterfaceForFile:52 - Property fetched successfully <Key>:<Value>: Database_Name : project_management
+09-11-2019 19:55:25 TRACE PropertiesInterfaceForFile:52 - Property fetched successfully <Key>:<Value>: useUnicode : true
+09-11-2019 19:55:25 TRACE PropertiesInterfaceForFile:52 - Property fetched successfully <Key>:<Value>: useJDBCCompliantTimezoneShift : true
+09-11-2019 19:55:25 TRACE PropertiesInterfaceForFile:52 - Property fetched successfully <Key>:<Value>: useLegacyDatetimeCode : false
+09-11-2019 19:55:25 TRACE PropertiesInterfaceForFile:52 - Property fetched successfully <Key>:<Value>: serverTimezone : UTC
+09-11-2019 19:56:02 INFO  PropertiesInterfaceForFile:42 - Loading properties from file DB.properties
+09-11-2019 19:56:02 TRACE PropertiesInterfaceForFile:45 - Properties file loaded: DB.properties
+09-11-2019 19:56:02 TRACE PropertiesInterfaceForFile:52 - Property fetched successfully <Key>:<Value>: URL : jdbc:mysql://localhost:3306/
+09-11-2019 19:56:02 TRACE PropertiesInterfaceForFile:52 - Property fetched successfully <Key>:<Value>: Driver : com.mysql.cj.jdbc.Driver
+09-11-2019 19:56:02 TRACE PropertiesInterfaceForFile:52 - Property fetched successfully <Key>:<Value>: Username : root
+09-11-2019 19:56:02 TRACE PropertiesInterfaceForFile:52 - Property fetched successfully <Key>:<Value>: Password : 
+09-11-2019 19:56:02 TRACE PropertiesInterfaceForFile:52 - Property fetched successfully <Key>:<Value>: Database_Name : project_management
+09-11-2019 19:56:02 TRACE PropertiesInterfaceForFile:52 - Property fetched successfully <Key>:<Value>: useUnicode : true
+09-11-2019 19:56:02 TRACE PropertiesInterfaceForFile:52 - Property fetched successfully <Key>:<Value>: useJDBCCompliantTimezoneShift : true
+09-11-2019 19:56:02 TRACE PropertiesInterfaceForFile:52 - Property fetched successfully <Key>:<Value>: useLegacyDatetimeCode : false
+09-11-2019 19:56:02 TRACE PropertiesInterfaceForFile:52 - Property fetched successfully <Key>:<Value>: serverTimezone : UTC
+09-11-2019 19:56:29 INFO  PropertiesInterfaceForFile:42 - Loading properties from file DB.properties
+09-11-2019 19:56:29 TRACE PropertiesInterfaceForFile:45 - Properties file loaded: DB.properties
+09-11-2019 19:56:29 TRACE PropertiesInterfaceForFile:52 - Property fetched successfully <Key>:<Value>: URL : jdbc:mysql://localhost:3306/
+09-11-2019 19:56:29 TRACE PropertiesInterfaceForFile:52 - Property fetched successfully <Key>:<Value>: Driver : com.mysql.cj.jdbc.Driver
+09-11-2019 19:56:29 TRACE PropertiesInterfaceForFile:52 - Property fetched successfully <Key>:<Value>: Username : root
+09-11-2019 19:56:29 TRACE PropertiesInterfaceForFile:52 - Property fetched successfully <Key>:<Value>: Password : 
+09-11-2019 19:56:29 TRACE PropertiesInterfaceForFile:52 - Property fetched successfully <Key>:<Value>: Database_Name : project_management
+09-11-2019 19:56:29 TRACE PropertiesInterfaceForFile:52 - Property fetched successfully <Key>:<Value>: useUnicode : true
+09-11-2019 19:56:29 TRACE PropertiesInterfaceForFile:52 - Property fetched successfully <Key>:<Value>: useJDBCCompliantTimezoneShift : true
+09-11-2019 19:56:29 TRACE PropertiesInterfaceForFile:52 - Property fetched successfully <Key>:<Value>: useLegacyDatetimeCode : false
+09-11-2019 19:56:29 TRACE PropertiesInterfaceForFile:52 - Property fetched successfully <Key>:<Value>: serverTimezone : UTC
+09-11-2019 19:56:45 INFO  PropertiesInterfaceForFile:42 - Loading properties from file DB.properties
+09-11-2019 19:56:45 TRACE PropertiesInterfaceForFile:45 - Properties file loaded: DB.properties
+09-11-2019 19:56:45 TRACE PropertiesInterfaceForFile:52 - Property fetched successfully <Key>:<Value>: URL : jdbc:mysql://localhost:3306/
+09-11-2019 19:56:45 TRACE PropertiesInterfaceForFile:52 - Property fetched successfully <Key>:<Value>: Driver : com.mysql.cj.jdbc.Driver
+09-11-2019 19:56:45 TRACE PropertiesInterfaceForFile:52 - Property fetched successfully <Key>:<Value>: Username : root
+09-11-2019 19:56:45 TRACE PropertiesInterfaceForFile:52 - Property fetched successfully <Key>:<Value>: Password : 
+09-11-2019 19:56:45 TRACE PropertiesInterfaceForFile:52 - Property fetched successfully <Key>:<Value>: Database_Name : project_management
+09-11-2019 19:56:45 TRACE PropertiesInterfaceForFile:52 - Property fetched successfully <Key>:<Value>: useUnicode : true
+09-11-2019 19:56:45 TRACE PropertiesInterfaceForFile:52 - Property fetched successfully <Key>:<Value>: useJDBCCompliantTimezoneShift : true
+09-11-2019 19:56:45 TRACE PropertiesInterfaceForFile:52 - Property fetched successfully <Key>:<Value>: useLegacyDatetimeCode : false
+09-11-2019 19:56:45 TRACE PropertiesInterfaceForFile:52 - Property fetched successfully <Key>:<Value>: serverTimezone : UTC
+06-06-2020 17:52:28 INFO  PropertiesInterfaceForFile:42 - Loading properties from file DB.properties
+06-06-2020 17:52:28 TRACE PropertiesInterfaceForFile:45 - Properties file loaded: DB.properties
+06-06-2020 17:52:28 TRACE PropertiesInterfaceForFile:52 - Property fetched successfully <Key>:<Value>: URL : jdbc:mysql://localhost:3306/
+06-06-2020 17:52:28 TRACE PropertiesInterfaceForFile:52 - Property fetched successfully <Key>:<Value>: Driver : com.mysql.cj.jdbc.Driver
+06-06-2020 17:52:28 TRACE PropertiesInterfaceForFile:52 - Property fetched successfully <Key>:<Value>: Username : root
+06-06-2020 17:52:28 TRACE PropertiesInterfaceForFile:52 - Property fetched successfully <Key>:<Value>: Password : 
+06-06-2020 17:52:28 TRACE PropertiesInterfaceForFile:52 - Property fetched successfully <Key>:<Value>: Database_Name : project_management
+06-06-2020 17:52:28 TRACE PropertiesInterfaceForFile:52 - Property fetched successfully <Key>:<Value>: useUnicode : true
+06-06-2020 17:52:28 TRACE PropertiesInterfaceForFile:52 - Property fetched successfully <Key>:<Value>: useJDBCCompliantTimezoneShift : true
+06-06-2020 17:52:28 TRACE PropertiesInterfaceForFile:52 - Property fetched successfully <Key>:<Value>: useLegacyDatetimeCode : false
+06-06-2020 17:52:28 TRACE PropertiesInterfaceForFile:52 - Property fetched successfully <Key>:<Value>: serverTimezone : UTC
+06-06-2020 17:53:54 INFO  PropertiesInterfaceForFile:42 - Loading properties from file DB.properties
+06-06-2020 17:53:54 TRACE PropertiesInterfaceForFile:45 - Properties file loaded: DB.properties
+06-06-2020 17:53:54 TRACE PropertiesInterfaceForFile:52 - Property fetched successfully <Key>:<Value>: URL : jdbc:mysql://localhost:3306/
+06-06-2020 17:53:54 TRACE PropertiesInterfaceForFile:52 - Property fetched successfully <Key>:<Value>: Driver : com.mysql.cj.jdbc.Driver
+06-06-2020 17:53:54 TRACE PropertiesInterfaceForFile:52 - Property fetched successfully <Key>:<Value>: Username : root
+06-06-2020 17:53:54 TRACE PropertiesInterfaceForFile:52 - Property fetched successfully <Key>:<Value>: Password : 
+06-06-2020 17:53:54 TRACE PropertiesInterfaceForFile:52 - Property fetched successfully <Key>:<Value>: Database_Name : project_management
+06-06-2020 17:53:54 TRACE PropertiesInterfaceForFile:52 - Property fetched successfully <Key>:<Value>: useUnicode : true
+06-06-2020 17:53:54 TRACE PropertiesInterfaceForFile:52 - Property fetched successfully <Key>:<Value>: useJDBCCompliantTimezoneShift : true
+06-06-2020 17:53:54 TRACE PropertiesInterfaceForFile:52 - Property fetched successfully <Key>:<Value>: useLegacyDatetimeCode : false
+06-06-2020 17:53:54 TRACE PropertiesInterfaceForFile:52 - Property fetched successfully <Key>:<Value>: serverTimezone : UTC

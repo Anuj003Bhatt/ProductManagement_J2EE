@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>LogIn</title>
+	<link rel="stylesheet" type="text/css" href="css/login.css">
+	<script type="text/javascript" src="js/login.js"></script>
+	
+</head>
+<body>
+	<!--
+		Everthing for the login page goes in here
+		This is the root container
+	-->
+	<div class="mainContainer">
+		<!--
+			This is the top label that shows the LOGIN label
+			This can be configured to show the logo of the company also
+		-->
+		<div class="headerPanel">
+			<div class="loginLabel">LOGIN</div>
+		</div>
+		
+		<!--
+			This is the details panel where users enter the username and the password and submit the details 
+			to the server
+		-->
+		<div class="detailPanel">
+			<form method="post" onsubmit="login()" >
+		
+				<div class="detailsContainer">			
+					<input class="inputBox" type="text" id="username" placeholder="Username">	
+					<br/><br/>
+					<input class="inputBox" type="password" id="password" placeholder="Password">
+				</div>
+				<div class="footerPanel">
+					<div class="footerLabel">Forgot username/password ?</div>
+				</div>
+
+				<div class="submitPanel">
+					<input class="submitbutton" type="submit" name="submit" value="Log In">
+				</div>
+			</form>
+		</div>
+	</div>
+</body>
+</html>
