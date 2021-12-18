@@ -48,4 +48,8 @@ It implements a database connection interface in layers where there is a:
 
 It also implements proper exception handling mechanishm and logging modules which are very critical part of any enterprise grade project.
 
+# Contributors
 
+Name | Designation | LinkedIn | 
+--- | --- | --- 
+Anuj Narayan Bhatt | Senior Software Developer | ![https://www.linkedin.com/in/anuj-30bhatt/](https://www.linkedin.com/in/anuj-30bhatt/)
